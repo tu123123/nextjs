@@ -1,0 +1,30 @@
+
+.list-container{
+    display: grid;
+    grid-template-rows: max-content;
+    gap: 10px;
+    
+}
+.item-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+}
+
+.list-header{
+    font-size: 20px;
+    padding: 10px;
+    text-decoration:underline;
+}
+.Salecontainer-footer{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: rgba(252, 232, 232, 0.545);
+}
+.footer-2{
+    border-left: 1px solid rgb(255, 124, 124);
+    padding: 10px;
+}
